@@ -6,7 +6,7 @@
 /*   By: fsitter <fsitter@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 09:59:11 by fsitter           #+#    #+#             */
-/*   Updated: 2025/10/27 17:28:51 by fsitter          ###   ########.fr       */
+/*   Updated: 2025/10/27 17:52:04 by fsitter          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -121,18 +121,18 @@ char	*get_next_line(int fd)
 	return (output);
 }
 
-// int main()
-// {
-// 	int fd = open("a.txt", O_RDONLY);
-// 	char *a;
+int main()
+{
+	int fd = open("a.txt", O_RDONLY);
+	char *a;
 
-// 	while ((a = get_next_line(fd)))
-// 	{
-// 		printf("%s", a);
-// 		free(a);
-// 	}
+	while ((a = get_next_line(fd)))
+	{
+		printf("%s", a);
+		free(a);
+	}
 
-// 	printf("%s", get_next_line(fd));
+	printf("%s", get_next_line(fd));
 
-// 	return (0);
-// }
+	return (0);
+}

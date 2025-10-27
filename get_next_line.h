@@ -6,7 +6,7 @@
 /*   By: fsitter <fsitter@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 09:59:15 by fsitter           #+#    #+#             */
-/*   Updated: 2025/10/27 16:48:28 by fsitter          ###   ########.fr       */
+/*   Updated: 2025/10/27 20:35:53 by fsitter          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # define GET_NEXT_LINE_H
 
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 369
+#  define BUFFER_SIZE 1
 # endif
 
 # include <fcntl.h>
