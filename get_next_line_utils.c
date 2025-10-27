@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: root <root@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: fsitter <fsitter@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 09:59:04 by fsitter           #+#    #+#             */
-/*   Updated: 2025/10/27 12:45:53 by root             ###   ########.fr       */
+/*   Updated: 2025/10/27 15:15:58 by fsitter          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	joined[i + j] = '\0';
 	return (joined);
-}  
+}
 
 char	*ft_strchr(const char *s, int c)
 {
@@ -112,4 +112,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_memset(pointer, 0, bytesize);
 	return (pointer);
 }
-
