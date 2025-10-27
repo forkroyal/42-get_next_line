@@ -6,7 +6,7 @@
 /*   By: fsitter <fsitter@student.42vienna.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/25 09:59:11 by fsitter           #+#    #+#             */
-/*   Updated: 2025/10/27 16:49:42 by fsitter          ###   ########.fr       */
+/*   Updated: 2025/10/27 17:28:51 by fsitter          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -129,6 +129,7 @@ char	*get_next_line(int fd)
 // 	while ((a = get_next_line(fd)))
 // 	{
 // 		printf("%s", a);
+// 		free(a);
 // 	}
 
 // 	printf("%s", get_next_line(fd));
